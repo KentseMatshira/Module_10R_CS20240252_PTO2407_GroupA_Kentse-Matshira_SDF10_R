@@ -2,13 +2,30 @@
 <html>
   <head>
     <title>Add to Cart</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">   
   <body>
-    <img src="./cover-img.png" />
-    <input type="text" id="input-el" placeholder="Om Nom Nom" />
-    <button id="input-btn">Cartify</button>
-    <button id="delete-btn">Delete All</button>
-    <ul id="ul-el"></ul>
+    <div class="container">
+      <!--Added a class to the div named container-->
+      <img
+        src="cover-img.png.jpeg"
+        alt="A picture of a cartoon cat inside of a shopping cart"
+      />
+      <input type="text" id="input-field" placeholder="Bread" />
+      <button id="add-button">Add to cart</button>
+      <ul id="shopping-list"></ul>
+                <li>Oranges</li>
+                <li>Hot dogs</li>
+    </div>
+    <script src="functions.js" type="module"></script>
+        <script src="index.js" type="module"></script>
   </body>
 </html>
+   
+   
+   
+   
+   
+   
